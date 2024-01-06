@@ -25,8 +25,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution URL](https://your-solution-url.com)
-- Live Site URL: [Live site URL](https://your-live-site-url.com)
+- Solution URL: [Solution URL](https://github.com/mccartheney/NFT-preview-card-component)
+- Live Site URL: [Live site URL](https://courageous-travesseiro-74d580.netlify.app/)
 
 ## My process
 
