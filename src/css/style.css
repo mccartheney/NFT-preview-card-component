@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    background-color: hsl(216, 50%, 16%);
+    max-width: 90vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.content {
+    margin: 20px;
+}
+.content .image {
+    width: 100%;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+
+.hoverImg {
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: hsla(178, 100%, 50%, 0.623);
+    position: absolute;
+    border-radius: 15px;
+}
+
+.image:hover .hoverImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.hoverImg img{
+    width: 50px !important;
+} 
+
+.content .image img {
+    border-radius: 15px;
+    width: 100%;
+}
+
+.information .title{
+    font-size: 12px;
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+}
+
+.information .title:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.information .textContent {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: hsla(0, 0%, 100%, 0.463);
+}
+
+.ethInfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid hsl(215, 51%, 70%);
+    padding-bottom: 20px;
+}
+
+.ethInfo .eth {
+    display: flex;
+    justify-content: space-between;
+    width: 90px;
+    color: hsl(178, 100%, 50%);
+}
+
+.ethInfo .time {
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+    color: hsl(215, 51%, 70%);
+}
+
+.creator {
+    display: flex;
+    align-items: center;
+    color: hsla(0, 0%, 100%, 0.463);
+    margin: 20px 0px 10px 0px;
+}
+.creator .image_creator {
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid hsl(0, 0%, 100%);
+    margin-right: 15px;
+}
+.creator .image_creator img{
+    width: 40px;
+}
+
+.creator span {
+    color: hsl(0, 0%, 100%);
+}
+
+.creator span:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+@media (min-width : 500px) {
+    .main {
+        max-width: 450px;
+    }
+}
